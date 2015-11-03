@@ -1,7 +1,7 @@
 #!/usr/bin/env python2.7
 
 def checkio(data):
-    return [x for x in data if data.count(x)>1]
+    return [x for x in data if data.count(x)<1]
 
 if __name__ == "__main__":
     #These "asserts" using only for self-checking and not necessary for auto-testing
