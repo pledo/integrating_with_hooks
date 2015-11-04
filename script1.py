@@ -1,6 +1,7 @@
 #!/usr/bin/env python2.7
 
 def checkio(data):
+    print("Teste11")
     return [x for x in data if data.count(x)>1]
 
 def soma(fator1, fator2):
