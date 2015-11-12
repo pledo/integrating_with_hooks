@@ -1,5 +1,5 @@
 #!/usr/bin/env python2.7
-
+#teste 1
 def checkio(data):
     print("Teste11")
     return [x for x in data if data.count(x)>1]
